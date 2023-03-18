@@ -5,6 +5,9 @@
 - Also, the functionality of entering the "exchange" command in WebSocket chats to view the current currency exchange rate in text format has been implemented. 
 
 
+- To launch the utility in the console, use the ```main.py``` file.
+- To use WebSocket, use the ```web_socket.py``` file.
+
 ## To run the utility, use the following command in the console: 
 
 ```
@@ -15,7 +18,6 @@ Where:
 • ```<number>```  - the number of days for which you need to get the exchange rate. Limitation - no more than 10 days.
 
 • ```<comma-separated list of currencies>``` - a list of currencies whose exchange rate needs to be obtained. For example: USD,EUR.
-
 
 ## Instructions for using the "exchange" command in WebSocket chats:
 
