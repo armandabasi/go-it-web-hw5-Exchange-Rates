@@ -29,6 +29,9 @@ if args.get('currency') != BaseCurrency:
     BaseCurrency = get_to_list_currency(args.get('currency'))
 if args.get('days') != BaseDays:
     BaseDays = int(args.get('days'))
+    if BaseDays > 10:
+        logging.info(f"I can put just 10 days, not {BaseDays} days")
+        BaseDays = 10
 
 
 def get_urls(days: int):
